@@ -297,7 +297,7 @@ header{
   width: 150px;
   height: 150px;
   display: block;
-  padding: 70px 90px;
+  padding: 60px 70px;
   /*position: absolute;*/
   margin-left: 40px;
   margin-top: 0px;
@@ -344,7 +344,7 @@ header{
 }
 
 .Work-left p{
-  font-size: 20px;
+  font-size: 7px;
 }
 
 .Work-center{
@@ -352,7 +352,7 @@ header{
 }
 
 .Work-center p{
-  font-size: 20px;
+  font-size: 7px;
 }
 
 .full-screen_04{
