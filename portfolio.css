@@ -216,6 +216,7 @@ header{
   font-family: cursive;
   font-weight: 900;
   margin-top: 10px;
+  float: center;
 }
 
 /*.Top h1: after{
