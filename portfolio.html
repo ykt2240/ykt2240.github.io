@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>YukiKuroda's portfolio</title>
+    <link href = "portfolio.css" rel="stylesheet" type="text/css">
+    <link href = "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $('a[href^=#]').click(function() {
+        var speed = 400;
+        var href = $(this).attr("href");
+        var target = $(href == '#' || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+      })
+    })
+    </script>
+
+    <script src="/js/spica.js"></script>
+ <script src="/js/localsocket.js"></script>
+ <script src="/js/pjax-api.js"></script>
+ <script>
+ var Pjax = require('pjax-api').Pjax;
+ new Pjax({
+   areas: [
+     '#header, #primary',
+     '#container',
+     'body'
+   ]
+ });
+ $(function(){
+    $.pjax({
+        area : '#content',
+        link : 'a:not([target])'
+
+    });
+    $.pjax({
+        area : '#content_2',
+        link : 'a:not([target])'
+    })
+});
+
+
+ </script>
+    <!--<style>
+     div{width:auto; height:500px;}
+     a.button{font-size:12px}
+   </style>-->
+<style>
+h1, p { text-align: center;}
+</style>
+
+<script>
+$(function(){
+  $('.effect div, .effect i').css("opacity","0");
+  $(window).scroll(function (){
+    $(".effect").each(function(){
+      var imgPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > imgPos - windowHeight + windowHeight/5){
+        $("i, div",this).css("opacity","1" );
+        $("i",this).css({
+          "font-size": "100px",
+          "padding": "0 20px 40px"
+        });
+      } else {
+        $("i, div",this).css("opacity","0" );
+        $("i",this).css({
+          "font-size": "20px",
+          "padding": "20px"
+        });
+      }
+    });
+  });
+});
+
+$(function(){
+  $(window).scroll(function (){
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if(scroll >= windowHeight/5) {
+      $('#centerBoxFirst').fadeOut();
+    } else {
+      $('#centerBoxFirst').fadeIn();
+    }
+  });
+});
+
+  </script>
+
+
+  </head>
+  <body>
+
+    <div class="full-screen">
+      <img src="images/S__1900649.jpg" alt="full_screen" />
+      <header>
+        <div class = "header-left float-left">
+          <a href = "#Top" class="btn">Top</a>
+        </div>
+        <div class = "header-right float-right ">
+         <ul>
+          <li>
+           <a href = "#Profile" class = "btn">Profile</a>
+           <!--<a name = "Profile">Profile</a>-->
+          </li>
+          <li>
+           <a href = "#Work" class="btn">Work</a>
+          </li>
+          <li>
+           <a href = "#Contact" class = "btn">Contact</a>
+          </li>
+          </ul>
+        </div>
+      </header>
+
+
+      <div class = "Top effect">
+        <i class="fa fa-child fa-5x"></i>
+        <div>
+       <h1 id = "Top">YukiKuroda's portfolio</h1>
+     </div>
+     </div>
+    </div>
+
+    <div class ="full-screen_02">
+      <img src="images/S__1908773.jpg" alt="full_screen" />
+      <div class = "Profile effect">
+        <i class="fa fa-child fa-5x"></i>
+        <div>
+       <h1 id = "Profile">Profile</h1>
+       <div class = "Profile-left">
+       <p>
+        <span class = "bold">黒田侑希(YukiKuroda)</span>
+       </p>
+       <p>現在、富山県立大学工学部情報システム工学科に在学中。</p>
+       <p>人に強い印象を与えられるサイトを作れるような、Webデザイナーを目指しています。</p>
+       <p>趣味は映画鑑賞と部屋のインテリアを考えることです。</p>
+       <dl>
+        <dt>出身：</dt><dd>富山県富山市</dd>
+        <dt>スキル：</dt><dd>HTML,CSS,Javascript,jquery</dd>
+       </dl>
+       </div>
+       </div>
+       </div>
+      </div>
+
+     <div class = "full-screen_03">
+      <img src="images/S__1933399.jpg" alt-"full_screen" />
+      <div class = "Work effect">
+        <i class="fa fa-child fa-5x"></i>
+        <div>
+         <h1 id = "Work">Work</h1>
+         <div class ="Work-left">
+           <div id="content">
+            <p><a href="portfolio_page2.html">ポートフォリオサイト</a></p>
+          </div>
+        </div>
+        <div class ="Work-center">
+           <div id="content_2">
+             <p><a href="portfolio_page3.html">名刺</a></p>
+           </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.pjax.js"></script>
+    <script>//ここにpjaxのscriptを書く</script>
+
+       </div>
+     </div>
+   </div>
+   </div>
+
+   <div class = "full-screen_04">
+     <img src="images/image4.jpg" alt="full_screen" />
+    <div class = "Contact effect">
+      <i class="fa fa-child fa-5x"></i>
+      <div>
+     <h1 id = "Contact">Contact</h1>
+     <div class="fa fa-facebook-official" aria-hidden="true"></div>
+     <div class = "Contact-left">
+     <p>何かご用件がありましたら、こちらのメールアドレスから<br>ご連絡お願いします。<br>
+     また、FacebookとTwitterの方からもお問い合わせができ<br>
+     ますので、よろしくお願いします。</p>
+     <dl>
+      <dt>mail:</dt><dd><a href = "mailto:yuki.kuroda.recruit@gmail.com">yuki.kuroda.recruit@gmail.com</a></dd>
+      <dt>Facebook:</dt><dd><a href = "" target="_blank"></a></dd>
+      <dt>Twitter:</dt><dd><a href = "https://twitter.com/ykt7240" target="_blank">https://twitter.com/ykt7240</a></dd>
+     </dl>
+     </div>
+　　　<div class = "Contact-right">
+     </div>
+   </div>
+   </div>
+ </div>
+
+
+  </body>
+</html>
