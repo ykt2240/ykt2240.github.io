@@ -18,6 +18,12 @@ body{
   font-family: cursive;
 }
 
+.p{
+  color: #b84343;
+  font-family: cursive;
+  font-size: bold;
+}
+
 .main a{
   background: rgba(79,77,71,.1);
   border-radius: 50%;
