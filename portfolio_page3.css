@@ -21,7 +21,7 @@ body{
 .main span{
   color: #b84343;
   font-family: cursive;
-  font-size: bold;
+  font-weight: bold;
   z-index: 3;
 }
 
