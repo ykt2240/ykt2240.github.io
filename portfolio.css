@@ -341,10 +341,12 @@ header{
 
 .Work-left{
   float:left;
+  font-size: 20px;
 }
 
 .Work-center{
   float:right;
+  font-size: 20px;
 }
 
 .full-screen_04{
