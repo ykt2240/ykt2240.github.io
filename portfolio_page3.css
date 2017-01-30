@@ -22,6 +22,7 @@ body{
   color: #b84343;
   font-family: cursive;
   font-size: bold;
+  z-index: 3;
 }
 
 .main a{
