@@ -18,10 +18,9 @@ body{
   font-family: cursive;
 }
 
-.main span{
+.main p{
   color: #b84343;
   font-family: cursive;
-  font-size: bold;
   z-index: 3;
 }
 
