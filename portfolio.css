@@ -270,6 +270,8 @@ header{
 
 .Profile-left p{
   z-index: 3;
+  text-align: center;
+  display: inline-block;
 }
 
 
@@ -341,6 +343,7 @@ header{
   font-family: cursive;
   margin-top: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 .Work-left{
