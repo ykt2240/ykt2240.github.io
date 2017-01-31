@@ -300,8 +300,8 @@ header{
   text-decoration: none;
   width: 50px;
   height: 50px;
-  display: inline-block;
-  padding: 90px 80px;
+  display: block;
+  padding: 70px 80px;
   /*position: absolute;*/
   margin-left: 40px;
   margin-top: 50px;
@@ -310,9 +310,7 @@ header{
   text-decoration: none;
   line-height: 90px;
   font-weight: normal;
-  font-size: 10px;
-  text-align: center;
-
+  font-size: 100%;
 }
 
 .full-screen_03 a:hover{
@@ -333,6 +331,9 @@ header{
   z-index: 1;
 }
 
+.Work{
+  z-index: 2;
+}
 
 .Work h1{
   font-size:70px;
@@ -341,7 +342,7 @@ header{
   padding: 60px 30px;
   font-family: cursive;
   margin-top: 10px;
-  float: right;
+  text-align: center;
 }
 
 .Work-left{
