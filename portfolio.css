@@ -265,6 +265,7 @@ header{
   color: #b84343;
   font-weight: bold;
   font-family: cursive;
+  display: inline-block;
 }
 
 .Profile-left p{
