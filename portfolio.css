@@ -301,10 +301,12 @@ header{
   /*position: absolute;*/
   margin-left: 40px;
   margin-top: 50px;
-  text-align: center;
+  font-style: normal;
+  vertical-align: baseline;
   text-decoration: none;
   line-height: 90px;
   font-weight: bold;
+
 }
 
 .full-screen_03 a:hover{
