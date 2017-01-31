@@ -42,10 +42,11 @@ body{
 .Work-left{
   height: 70px;
   width: 70px;
+  float: left;
 }
 
 .Work-right{
   color: #b84343;
   font-family: cursive;
-  
+  float: right;
 }
