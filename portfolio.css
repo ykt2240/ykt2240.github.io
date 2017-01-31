@@ -305,8 +305,8 @@ header{
   vertical-align: baseline;
   text-decoration: none;
   line-height: 90px;
-  font-weight: bold;
-
+  font-weight: normal;
+  font-size: 100%;
 }
 
 .full-screen_03 a:hover{
