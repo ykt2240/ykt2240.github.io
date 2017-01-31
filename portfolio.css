@@ -397,7 +397,7 @@ header{
 .Contact-left{
   color: #b84343;
   font-weight:bold;
-  text-align: center;
+  float: right;
   padding: 0px 50px;
 }
 
