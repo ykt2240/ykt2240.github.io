@@ -38,3 +38,14 @@ body{
 .main a:hover{
   background: rgba(79,77,71,.05);
 }
+
+.Work-left{
+  height: 70px;
+  width: 70px;
+}
+
+.Work-right{
+  color: #b84343;
+  font-family: cursive;
+  
+}
