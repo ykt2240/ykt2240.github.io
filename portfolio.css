@@ -217,7 +217,6 @@ header{
   font-weight: 900;
   margin-top: 10px;
   text-align: center;
-  display: inline-block;
 }
 
 /*.Top h1: after{
@@ -257,7 +256,6 @@ header{
   font-family: cursive;
   margin-top: 10px;
   text-align: center;
-  display: inline-block;
 }
 
 .Profile-left{
@@ -344,7 +342,6 @@ header{
   font-family: cursive;
   margin-top: 10px;
   text-align: center;
-  display: inline-block;
 }
 
 .Work-left{
@@ -390,20 +387,15 @@ header{
   padding: 100px 30px;
   font-family: cursive;
   text-align: center;
-  display: inline-block;
 }
 
 .Contact-left{
   color: #b84343;
   font-weight:bold;
   text-align: center;
-  display: inline-block;
   padding: 0px 50px;
 }
 
-.Contact-right{
-  float:right;
-}
 
 
 .fa {
