@@ -342,6 +342,7 @@ header{
   font-family: cursive;
   margin-top: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 .Work-left{
