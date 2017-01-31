@@ -349,6 +349,7 @@ header{
 
 .Work-left{
   float:left;
+  padding: 275px 70px;
 }
 
 .Work-left p{
@@ -357,6 +358,7 @@ header{
 
 .Work-center{
   float:right;
+  padding: 0px 30px;
 }
 
 .Work-center p{
