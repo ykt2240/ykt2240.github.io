@@ -216,6 +216,7 @@ header{
   font-family: cursive;
   font-weight: 900;
   margin-top: 10px;
+  text-align: center;
 
 }
 
@@ -271,7 +272,6 @@ header{
 .Profile-left p{
   z-index: 3;
   text-align: center;
-  display: inline-block;
 }
 
 
@@ -335,6 +335,8 @@ header{
 
 .Work{
   z-index: 2;
+  height: 100%;
+  width: 100%;
 }
 
 .Work h1{
@@ -345,12 +347,11 @@ header{
   font-family: cursive;
   margin-top: 10px;
   text-align: center;
-  display: inline-block;
 }
 
 .Work-left{
   float:left;
-  padding: 275px 70px;
+  padding: 20px 50px;
 }
 
 .Work-left p{
@@ -359,7 +360,7 @@ header{
 
 .Work-center{
   float:right;
-  padding: 0px 30px;
+  padding: 20px 50px;
 }
 
 .Work-center p{
@@ -384,22 +385,24 @@ header{
 }
 .Contact{
   z-index: 2;
+  height: 100%;
+  width: 100%;
 }
 
 .Contact h1{
   font-size:70px;
   z-index: 3;
   color: #b84343;
-  padding: 100px 30px;
+  padding: 50px 30px;
   font-family: cursive;
-  float: right;
+  text-align: center;
 }
 
 .Contact-left{
   color: #b84343;
   font-weight:bold;
-  float: right;
-  padding: 310px 50px;
+  padding: 20px 30px;
+  text-align: center;
 }
 
 
