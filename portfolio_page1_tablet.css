@@ -127,21 +127,21 @@
   }
 
   .pic1 {
-    background-image: url('images/S__1900649.jpg');
+    background-image: url('images/backimage.jpg');
     background-size: cover;
     background-position: center center;
     margin: 0 auto;
   }
 
   .pic2 {
-    background-image: url('images/S__1900649.jpg');
+    background-image: url('images/backimage.jpg');
     height: 700px;
   }
 
   .pic3 {
-    /*background-image: url('images/S__1900649.jpg');*/
-    background-color: #333;
-    height: 1000px;
+    background-image: url('images/backimage.jpg');
+    /*background-color: #333;*/
+    height: 900px;
   }
 
   /*@media (min-width: 768px) {
@@ -233,9 +233,10 @@
 
   .content h2 {
     /*margin: 0 0 16px;*/
-    margin: 0 auto;
-    font-size: 40px;
+    margin-left: 80px;
     float: left;
+
+    font-size: 40px;
     background-color: #d1e751;
     border-radius: 30%;
     padding: 30px;
@@ -314,9 +315,9 @@
 
 
   .Work2-content {
+    margin-bottom: 300px;
     float: left;
-    margin-bottom: 180px;
-    width: 250px;
+    width: 27%;
     display: block;
   }
 
@@ -326,9 +327,11 @@
     display: inline-block;
   	position: absolute;
     float: left;
-    width: 160px;
-    height: 150px;
+    width: 22%;
+    margin-right: 50px;
+    height: 250px;
     padding: 10px;
+    color: #333;
     border: 2px solid #fff;
   }
 
@@ -340,7 +343,7 @@
 
   .Work2-content span:nth-child(2) {
   	background-color: #d1e751;
-  	color: #fff;
+  	color: #333;
 
   }
 
@@ -349,13 +352,14 @@
   }
 
   .Work2-content img {
-    width: 150px;
-    height: 150px;
+    width: 90%;
+    height: 250px;
     border: 2px solid #fff;
   }
 
   .Work2-content span p {
     position: absolute;
+    color: #33ccff;
     margin-left: 8px;
   }
 

@@ -128,21 +128,21 @@ h2 {
 }
 
 .pic1 {
-  background-image: url('images/S__1900649.jpg');
+  background-image: url('images/backimage.jpg');
   background-size: cover;
   background-position: center center;
   margin: 0 auto;
 }
 
 .pic2 {
-  background-image: url('images/S__1900649.jpg');
+  background-image: url('images/backimage.jpg');
   height: 700px;
 }
 
 .pic3 {
-  /*background-image: url('images/S__1900649.jpg');*/
-  background-color: #333;
-  height: 1000px;
+  background-image: url('images/backimage.jpg');
+  /*background-color: #333;*/
+  height: 920px;
 }
 
 /*@media (min-width: 768px) {
@@ -233,10 +233,8 @@ section .content_2 {
 }
 
 .content h2 {
-  /*margin: 0 0 16px;*/
-  margin: 0 auto;
+  margin-left: 80px;
   font-size: 40px;
-  float: left;
   background-color: #d1e751;
   border-radius: 30%;
   padding: 30px;
@@ -315,11 +313,9 @@ section .content_2 {
 
 
 .Work2-content {
-  margin: 30px;
-  margin-left: 10px;
-  float: left;
   margin-bottom: 200px;
-  width: 300px;
+  float: left;
+  width: 230px;
   display: block;
 }
 
@@ -330,10 +326,12 @@ section .content_2 {
   font-size: 15px;
   display: inline-block;
 	position: absolute;
+  margin-right: 10px;
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   padding: 10px;
+  color: #333;
   border: 2px solid #fff;
 }
 
@@ -345,7 +343,7 @@ section .content_2 {
 
 .Work2-content span:nth-child(2) {
 	background-color: #d1e751;
-	color: #fff;
+	color: #333;
 
 }
 
@@ -362,7 +360,7 @@ section .content_2 {
 .Work2-content span p {
   position: absolute;
   margin-left: 8px;
-  color: #fff;
+  color: #33ccff;
 }
 
 
@@ -381,38 +379,6 @@ section .content_2 {
 }
 
 
-
-/*左右の矢印の色を変える*/
-/*.slick-prev:before,
-.slick-next:before {
-    color: #000;
-}*/
-/*左右の矢印の位置を変える*/
-/*.slick-next {
-    right: 20px;
-    z-index: 99;
-}
-.slick-prev {
-     left: 15px;
-    z-index: 100;
-}*/
-/*スライド数のドットの色を変える*/
-/*.slick-dots li.slick-active button:before,
-.slick-dots li button:before {
-    color: #fff;
-}
-
-.slider {
-    margin: 0 auto;
-    float: left;
-}
-
-.slider img {
-     margin: 0;
-    max-width: 50%;
-     height: auto;
-     padding-bottom: 30px;
-}*/
 
 section p {
   margin: 0;
